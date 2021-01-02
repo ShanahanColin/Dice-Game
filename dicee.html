@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <!-- Bootstap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+      <!-- Bootstap JS -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <div class="header">
+        <h1>The Dice <span>G🎲me</span></h1>
+    </div>
+    <div class="container">
+      <div id="whoWins">
+        <h2></h2>
+      </div>
+
+      <div class="roll">
+        <input class="btn btn-outline-danger" type = "button" onclick = "rollDice()" value = "Roll Dice">
+      </div>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+      </div>
+
+    </div>
+
+    <div id="footer" class="">
+      <footer>
+        <h5>created by</h5>
+        <h3>Colin Shanahan</h3>
+      </footer>
+    </div>
+
+<script type="text/javascript" src="index.js"></script>
+  </body>
+
+
+
+
+</html>

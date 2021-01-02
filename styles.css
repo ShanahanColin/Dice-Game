@@ -1,0 +1,61 @@
+
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 7%
+}
+
+.header {background-color: lightgrey; text-align: center; padding: 7% 0%}
+
+#whoWins {padding-top: 7%}
+
+.btn {color: white;}
+
+.roll {padding: 5% 0 5% 0;}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+#footer {padding: .5% 0 3% 0;background-color: grey;}
+
+span {display: inline-block;}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2 {
+
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}

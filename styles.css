@@ -7,7 +7,7 @@
   padding-bottom: 7%
 }
 
-.header {background-color: lightgrey; text-align: center; padding: 7% 0%}
+.header {background-color: lightgrey; text-align: center; }
 
 #whoWins {padding-top: 7%}
 
@@ -19,6 +19,9 @@
   text-align: center;
   display: inline-block;
 }
+
+.guessResult {padding-top: 3%;}
+
 #footer {padding: .5% 0 3% 0;background-color: grey;}
 
 span {display: inline-block;}

@@ -24,13 +24,13 @@ if(randomNumber1 == randomNumber2){
   document.querySelector("h2").innerText ="Draw";
 }
 
-if(randomNumber1 > randomNumber2){
-  document.querySelector("h4").innerText = "Player 1 Receives 1 Point";
-}else if (randomNumber1 < randomNumber2) {
-  document.querySelector("h4").innerText = "Player 2 Receives 1 Point";
-} else {
-  document.querySelector("h4").innerText = "No Points Received";
-}
+// if(randomNumber1 > randomNumber2){
+//   document.querySelector("h4").innerText = "Player 1 Receives 1 Point";
+// }else if (randomNumber1 < randomNumber2) {
+//   document.querySelector("h4").innerText = "Player 2 Receives 1 Point";
+// } else {
+//   document.querySelector("h4").innerText = "No Points Received";
+// }
 
 
 
